@@ -42,6 +42,7 @@ services:
     ports:
       - "10000:10000"
       - "8020:8020"
+      - "3022:22"
 
   hive-metastore:
     image: bde2020/hive:2.3.2-postgresql-metastore
